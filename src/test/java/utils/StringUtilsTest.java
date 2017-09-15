@@ -20,7 +20,7 @@ public class StringUtilsTest {
 
     @Test
     public void ensureStringHasValue(){
-        Assert.assertTrue(StringUtils.hasNoValue(" "));
+        Assert.assertTrue(StringUtils.hasNoValue(""));
     }
 
     @Test

@@ -39,6 +39,9 @@ public class UserBusiness {
         if(StringUtils.hasNoValue(mail))
             return false;
 
+        if(!mail.contains("@"))
+            return false;
+
         return true;
     }
 

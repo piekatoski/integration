@@ -11,27 +11,57 @@ public class UserBusinessTest {
     UserBusiness business;
 
     @Test
-    public void CannotCreateUserWithoutAName(){
+    public void ensureCannotCreateUserWithoutAName(){
         User user =  new User("teste","teste","","teste");
         Assert.assertEquals(business.create(user), null);
     }
 
     @Test
-    public void CannotCreateUserWithoutAMail(){
+    public void ensureCannotCreateUserWithoutAMail(){
         User user =  new User("teste","","teste","teste");
         Assert.assertEquals(business.create(user), null);
     }
 
     @Test
-    public void CannotCreateUserWithoutALogin(){
+    public void ensureCannotCreateUserWithoutALogin(){
         User user =  new User("","teste","teste","teste");
         Assert.assertEquals(business.create(user), null);
     }
 
     @Test
-    public void CannotCreateUserWithoutAPassword(){
+    public void ensureCannotCreateUserWithoutAPassword(){
         User user =  new User("teste","teste","teste","");
         Assert.assertEquals(business.create(user), null);
+    }
+
+    @Test
+    public void ensureEmailsIsNotValid(){
+        User user =  new User("teste","teste","teste","");
+        boolean valid = business.validateEmail(user.mail);
+        Assert.assertEquals(valid, false);
+
+    }
+
+    @Test
+    public void ensureEmailIsValid(){
+        User user =  new User("teste","teste@email.com","teste","");
+        boolean valid = business.validateEmail(user.mail);
+        Assert.assertEquals(valid, true);
+
+    }
+
+    @Test
+    public void ensureNameIsValid(){
+        User user =  new User("teste","teste@email.com","Leandro","123");
+        boolean valid = business.validateUserName(user.fullName);
+        Assert.assertEquals(valid, true);
+    }
+
+    @Test
+    public void ensureNameIsNotValid(){
+        User user =  new User("teste","teste@email.com","Leandro2","123");
+        boolean valid = business.validateUserName(user.fullName);
+        Assert.assertEquals(valid, false);
     }
 
 }

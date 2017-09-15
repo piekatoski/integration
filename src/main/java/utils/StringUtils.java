@@ -7,6 +7,6 @@ public class StringUtils {
     }
 
     public static boolean hasNoValue(String data){
-        return data != "";
+        return data == "";
     }
 }
