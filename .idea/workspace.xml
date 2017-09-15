@@ -2,11 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be7486d-0e63-411e-8c6d-647c595178f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UserBusiness.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utils/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/classes/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/classes/UserBusiness.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/classes/utils/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/js/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/style/welcome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/integration-1.0-SNAPSHOT/welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jacoco.exec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/User.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/User.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/UserBusiness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/UserBusiness.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/utils/StringUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/utils/StringUtils.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/utils/index.source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-UserBusinessTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-utils.StringUtilsTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/UserBusinessTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/utils.StringUtilsTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/UserBusinessTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/StringUtilsTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/UserBusinessTest.java" afterPath="$PROJECT_DIR$/src/test/java/UserBusinessTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="524">
@@ -86,18 +163,18 @@
       <file leaf-file-name="UserBusiness.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="180">
               <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserBusinessTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserBusinessTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserBusinessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="42" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -162,13 +239,13 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/StringUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserBusiness.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserBusinessTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/login.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/register.js" />
         <option value="$PROJECT_DIR$/circle.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/UserBusinessTest.java" />
       </list>
     </option>
   </component>
@@ -216,7 +293,20 @@
             <path>
               <item name="integration" type="b2602c69:ProjectViewProjectNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="integration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="integration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,7 +589,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,7 +602,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25211376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25211376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -701,22 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserBusinessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -777,6 +850,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserBusinessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="42" selection-end-column="7" />
           <folding />
         </state>
       </provider>
