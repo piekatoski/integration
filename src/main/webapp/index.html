@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+    <title>Continuous Integration</title>
+
+</head>
+<body>
+
+    <div class="login-page">
+        <h1>Log in</h1>
+        <div class="form">
+            <form class="login-form" action="welcome.html" onsubmit="return Logon(this)">
+                <input id="username" type="text" placeholder="username" required="required"/>
+                <input id="password" type="password" placeholder="password" required="required"/>
+                <button>log in</button>
+                <p class="message">Not registered? <a href="#" onclick="Register()">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>
