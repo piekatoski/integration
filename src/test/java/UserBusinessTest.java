@@ -16,7 +16,7 @@ public class UserBusinessTest {
         Assert.assertEquals(business.create(user), null);
     }
 
-    /*@Test
+    @Test
     public void ensureCannotCreateUserWithoutAMail(){
         User user =  new User("teste","","teste","teste");
         Assert.assertEquals(business.create(user), null);
@@ -40,7 +40,7 @@ public class UserBusinessTest {
         boolean valid = business.validateEmail(user.mail);
         Assert.assertEquals(valid, false);
 
-    }*/
+    }
 
     @Test
     public void ensureEmailIsValid(){
