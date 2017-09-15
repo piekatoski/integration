@@ -1,26 +1,46 @@
+import utils.StringUtils;
+
 public class UserBusiness {
 
     public User create(User user){
-        if(user.fullName.length() == 0) {
-            return null;
-        }
-
-        if(user.fullName.length() < 5)
+        if(!validateUserName(user.fullName))
             return null;
 
-        if(user.fullName.length() == 0)
+        if(!validateEmail(user.mail))
             return null;
 
-        if(validate(user))
-            return new User(user.login,user.mail,user.fullName,user.password);
-        else
-            return null;
+        return new User(user.login,user.mail,user.fullName,user.password);
     }
 
-    public boolean validate(User user){
-        if(user.fullName == "Leandro")
+    public boolean validateUserName(String name){
+
+        if(StringUtils.isEmpty(name))
+            return false;
+
+        if(StringUtils.hasNoValue(name))
+            return false;
+
+        if(name.length() < 5)
+            return false;
+
+        if(name.length() > 200)
+            return false;
+
+        if(name == "Leandro")
             return true;
         else
             return false;
     }
+
+    public boolean validateEmail(String mail){
+        if(StringUtils.isEmpty(mail))
+            return false;
+
+        if(StringUtils.hasNoValue(mail))
+            return false;
+
+        return true;
+    }
+
+
 }

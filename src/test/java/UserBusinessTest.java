@@ -7,14 +7,31 @@ import org.mockito.runners.MockitoJUnitRunner;
 @RunWith(MockitoJUnitRunner.class)
 public class UserBusinessTest {
 
+    @InjectMocks
+    UserBusiness business;
 
     @Test
-    public void nothing(){
-        Assert.assertTrue(true);
+    public void CannotCreateUserWithoutAName(){
+        User user =  new User("teste","teste","","teste");
+        Assert.assertEquals(business.create(user), null);
     }
 
     @Test
-    public void nothing2(){
-        Assert.assertTrue(true );
+    public void CannotCreateUserWithoutAMail(){
+        User user =  new User("teste","","teste","teste");
+        Assert.assertEquals(business.create(user), null);
     }
+
+    @Test
+    public void CannotCreateUserWithoutALogin(){
+        User user =  new User("","teste","teste","teste");
+        Assert.assertEquals(business.create(user), null);
+    }
+
+    @Test
+    public void CannotCreateUserWithoutAPassword(){
+        User user =  new User("teste","teste","teste","");
+        Assert.assertEquals(business.create(user), null);
+    }
+
 }
