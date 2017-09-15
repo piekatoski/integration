@@ -1,0 +1,29 @@
+machine:
+  timezone:
+    America/New_York
+
+  java:
+    version: oraclejdk8
+
+#dependencies:
+  #pre:
+    #- sudo rsync -r --include=*/ --include=*.jar --exclude=* .jdk-overlay/jre $JAVA_HOME
+
+general:
+  branches:
+    only:
+      - master
+      - develop
+
+test:
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+
+deployment:
+    homolog:
+        branch: master
+        commands:
+          - sudo chmod 600 leandro-teste.pem
+          - scp -oStrictHostKeyChecking=no -i leandro-teste.pem build/helloworld-0.1-dev.war ec2-user@54.94.226.70:~
+          - ssh -oStrictHostKeyChecking=no -i leandro-teste.pem ec2-user@54.94.226.70 "/home/ec2-user/deploy-cron.sh"
